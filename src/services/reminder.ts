@@ -1,7 +1,7 @@
 import axios from "axios";
 import Reminder from "../models/reminder";
 
-class ReminderService {
+class reminderService {
     http = axios.create({
         baseURL: 'https://jsonplaceholder.typicode.com/'
     });
@@ -22,4 +22,4 @@ class ReminderService {
     }
 }
 
-export default new ReminderService();
+export default new reminderService();
